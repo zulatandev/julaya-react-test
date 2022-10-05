@@ -1,0 +1,19 @@
+.map-wrapper {
+  padding: 50px;
+  background: lightgray;
+}
+
+.btn-logout {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+
+  background: white;
+  border: 1px solid #FF8157;
+  color: #FF8157;
+  padding: 12px 24px;
+}
+
+.btn-logout:hover {
+  background: white;
+}

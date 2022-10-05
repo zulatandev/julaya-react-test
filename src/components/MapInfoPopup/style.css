@@ -1,0 +1,89 @@
+.map-info-modal {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back-drop {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.map-info-card {
+  width: 400px;
+  z-index: 10;
+  padding: 20px 30px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+.map-info-card .card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.map-info-card .mark-info-field {
+  margin-bottom: 12px;
+  color: #7e7e7e;
+}
+
+.map-info-card .section-label {
+  font-size: 20px;
+  font-weight: 700;
+  color: #FF8157;
+  margin-top: 10px;
+}
+
+.comment-list {
+  height: 400px;
+  overflow: auto;
+  margin-bottom: 10px;
+}
+
+.comment-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.comment-item {
+  padding: 12px 0;
+}
+
+.comment-text {
+  font-size: 14px;
+  color: #7e7e7e;
+}
+
+.comment-sender {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.comment-new {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-new textarea {
+  margin-bottom: 10px;
+  padding: 10px 0;
+  border: 0;
+  border-bottom: 1px solid #dedede;
+  outline: none;
+  min-width: 360px;
+  font-size: 14px;
+}
+
+.comment-label {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #7e7e7e;
+}

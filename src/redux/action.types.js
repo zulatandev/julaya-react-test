@@ -1,0 +1,4 @@
+export const SET_ACCOUNT = "SET_ACCOUNT";
+export const FETCH_AGENTS_DATA = "FETCH_AGENTS_DATA";
+export const ADD_NEW_COMMENT = "ADD_NEW_COMMENT";
+

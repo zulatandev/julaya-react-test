@@ -1,0 +1,61 @@
+.sign-in-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f1f1f1;
+}
+
+.sign-in-card {
+  padding: 40px 50px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign-in-card .card-title {
+  color: #FF8157;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 48px;
+  margin-top: 12px;
+}
+
+.sign-in-card input {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.sign-in-card button {
+  width: 100%;
+  margin-top: 40px;
+}
+
+input {
+  padding: 10px 0;
+  border: 0;
+  border-bottom: 1px solid #dedede;
+  outline: none;
+  min-width: 360px;
+  font-size: 12px;
+}
+
+input:focus {
+  border-bottom-color: #222222;
+}
+
+button {
+  padding: 16px;
+  background: #FF8157;
+  outline: none;
+  font-weight: 600;
+  color: white;
+  font-size: 18px;
+  border: 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff6c41;
+}
